@@ -13,7 +13,7 @@ const Header = () => {
                 <ShoppingCartIcon className='w-8 h-8 mr-2'></ShoppingCartIcon> 
                 <span style={{color:'#3BB67E'}}>G</span>Store</h1>
 
-            <nav className={`relative md:flex sm:static justify-center ease-in ${open===true ? 'top-6': 'hidden'}`}>
+            <nav className={`relative md:flex sm:static justify-center ease-in ${open===true ? 'bg-green-100 p-2': 'hidden'}`}>
                 <Link to='/home'>Home</Link>
                 <Link to='/store'>Store</Link>
                 <Link to='/cart'>Cart</Link>
