@@ -6,7 +6,7 @@ import './Store.css';
 import useItems from '../hooks/useItems';
 
 const Store = () => {
-    const [items, setItems] = useItems();
+    const [items] = useItems();
     const [cart, setCart] = useState([]);
 
     const handleAddToCart =clickedItem=>{
@@ -29,7 +29,7 @@ const Store = () => {
 
     return (
             <div className='store'>
-                <div className="items mx-auto px-auto">
+                <div className="items mx-auto">
                     {
                         items.map(item=><Item key={item.idMeal} item={item} handleAddToCart={handleAddToCart}></Item>)
                     }

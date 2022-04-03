@@ -1,32 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .item{
     width: 250px;
-    height: 400px;
-    margin: 10px;
+    height: 360px;
+    margin: 15px auto;
     border: 1px solid gainsboro;
     /* border-radius: 10px; */
     padding: 5px 5px 0 5px;
     position: relative;
+}
+.item h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.item h4 span{
+    /* font-family: 'Sail', cursive;  */
+    font-weight: 700;
+    font-size: 22px;
+    padding: 5px;
 }
 .item img{
     width: 250px;
     height: 250px;
 }
 .add-to-cart{
-    background-color: #FFBA43;
+    background-color: #3BB67E;
     padding: 10px 15px;
-    margin: 20px 0;
-    color: #3BB67E;
+    color: #fff;
     font-weight: 700;
-    border-radius: 12px;
 }
 .add-to-cart:hover{
-    background-color: #3BB67E;
-    color: #FFBA43;
+    background-color: #FFBA43;
+    color: #3BB67E;
     transition: 0.5s;
 }
 .eye{
     background-color: #3BB67E;
-    color: #FFBA43;
+    color: #fff;
     border-radius: 50%;
 }
 .eye:hover{
