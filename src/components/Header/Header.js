@@ -16,9 +16,7 @@ const Header = () => {
             <nav className={`relative md:flex sm:static justify-center ease-in ${open===true ? 'top-6': 'hidden'}`}>
                 <Link to='/home'>Home</Link>
                 <Link to='/store'>Store</Link>
-                <Link to='/store'>Store</Link>
-                <Link to='/store'>Store</Link>
-                <Link to='/store'>Store</Link>
+                <Link to='/cart'>Cart</Link>
             </nav>
             <div onClick={()=>setOpen(!open)}  className='menu-icon w-8 h-8 my-1 menu md:hidden text-green-500 pr-0 pt-3'>
                 {open ? <XIcon></XIcon> : <MenuAlt1Icon></MenuAlt1Icon>}

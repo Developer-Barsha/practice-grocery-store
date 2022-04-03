@@ -1,11 +1,37 @@
 .item{
     width: 250px;
+    height: 400px;
     margin: 10px;
     border: 1px solid gainsboro;
-    border-radius: 10px;
-    padding: 5px;
+    /* border-radius: 10px; */
+    padding: 5px 5px 0 5px;
+    position: relative;
 }
 .item img{
     width: 250px;
     height: 250px;
+}
+.add-to-cart{
+    background-color: #FFBA43;
+    padding: 10px 15px;
+    margin: 20px 0;
+    color: #3BB67E;
+    font-weight: 700;
+    border-radius: 12px;
+}
+.add-to-cart:hover{
+    background-color: #3BB67E;
+    color: #FFBA43;
+    transition: 0.5s;
+}
+.eye{
+    background-color: #3BB67E;
+    color: #FFBA43;
+    border-radius: 50%;
+}
+.eye:hover{
+    background-color: #FFBA43;
+    color: #3BB67E;
+    transition: 0.5s;
+    transform: scale(1.1);
 }

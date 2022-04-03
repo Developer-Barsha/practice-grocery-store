@@ -1,0 +1,11 @@
+.itemDetail{
+    width: 700px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #c3fbe2;
+}
+.itemDetail img{
+    width:300px;
+    height: 300px;
+}
