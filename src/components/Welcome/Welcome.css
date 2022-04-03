@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-/* font-family: 'Dancing Script', cursive; */
 
 .welcome-section div{
     width: 50%;
@@ -14,7 +13,6 @@
     margin-bottom: 15px;
 }
 .welcome-section h1 span:nth-child(2){
-    /* font-family: 'Sail', cursive; */
     font-family: 'Pacifico', cursive;
     font-size: 38px;
 }
@@ -89,6 +87,46 @@
     padding: 5px;
     border-radius: 50%;
 }
+.categories div{
+    border: 3px solid #3BB67E;
+    padding: 15px;
+    box-shadow: 8px 8px 15px #f5f7d7a4;
+    width: 320px;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 320px;
+}
+.categories div img{
+    width: 230px;
+    height: 190px;
+    position: absolute;
+    bottom: 0px;
+    right: -70px;
+}
+.categories div:hover img{
+    bottom: 0px;
+    right: -40px;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+.categories div h1{
+    z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+.categories div h1 span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: #FFBA43;
+    font-weight: 700;
+}
+.categories div p{
+    font-family: 'Sail', cursive;
+    font-size: 20px;
+    color: #3BB67E;
+}
 
 @media screen and (min-width:0px)  and (max-width:1000px) {
     .welcome-section{
@@ -109,6 +147,9 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
-        /* margin: 20px 0; */
+    }
+    .categories{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
