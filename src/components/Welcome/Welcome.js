@@ -1,6 +1,6 @@
 import React from 'react';
 import './Welcome.css';
-import { CheckIcon, PhoneIcon, EmojiHappyIcon} from '@heroicons/react/solid';
+import { CheckIcon, PhoneIcon, EmojiHappyIcon, ArrowNarrowRightIcon} from '@heroicons/react/solid';
 import { useNavigate } from 'react-router-dom';
 
 const Welcome = () => {
@@ -12,7 +12,7 @@ const Welcome = () => {
                 <div className='w-50 welcome-text my-auto mx-auto py-3 px-5'>
                     <h1 className='text-6xl font-semibold'><span style={{color:"#FFBA43"}}>Happy</span> Shopping in <span style={{color:"#3BB67E"}}>GStore</span></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquid deserunt, fugiat illum laudantium quidem harum eum pariatur consectetur odio quos expedita atque quia aliquam, excepturi velit asperiores quisquam blanditiis</p>
-                    <button onClick={()=>navigate('/store')} className='go-to-store'>Go To Store</button>
+                    <button onClick={()=>navigate('/store')} className='go-to-store flex gap-3'>Go To Store <ArrowNarrowRightIcon className='w-8 h-8'></ArrowNarrowRightIcon> </button>
                 </div>
 
                 <div className='w-50 welcome-img my-auto mx-auto'>

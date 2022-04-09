@@ -1,0 +1,17 @@
+form input{
+    border: 1px solid #3BB67E;
+    padding: 5px;
+}
+form button{
+    background-color: #FFBA43;
+    padding: 10px 10px 5px;
+    color: #3BB67E;
+    font-weight: 700;
+    font-family: 'Dongle', sans-serif;
+    font-size: 27px;
+}
+form button:hover{
+    background-color: #3BB67E;
+    color: #fff;
+    transition: 0.5s;
+}
